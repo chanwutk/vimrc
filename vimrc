@@ -49,6 +49,9 @@ set scrolloff=7
 set noswapfile
 set nobackup
 
+set hlsearch
+set incsearch
+
 colorscheme gruvbox
 
 " enable backspace in insert mode of vim
