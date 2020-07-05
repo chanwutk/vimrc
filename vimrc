@@ -17,6 +17,8 @@ Plug 'morhetz/gruvbox'
 
 Plug 'HerringtonDarkholme/yats.vim' " TS Syntax
 
+Plug 'vim-airline/vim-airline'
+
 " Initialize plugin system
 call plug#end()
 
@@ -57,6 +59,11 @@ colorscheme gruvbox
 " enable backspace in insert mode of vim
 set nocompatible
 set backspace=indent,eol,start
+
+
+
+""""""""""""""""""" Airlien """""""""""""""""""
+set noshowmode
 
 
 
