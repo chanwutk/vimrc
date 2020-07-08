@@ -40,20 +40,28 @@ tnoremap <Esc> <C-\><C-n>
 
 
 """"""""""""""""""" General """""""""""""""""""
+set noerrorbells
 set smarttab
-set cindent
-set tabstop=2
+set tabstop=2 softtabstop=2
 set shiftwidth=2
+set smartindent
 " always uses spaces instead of tab characters
 set expandtab
+
+set nowrap
+set smartcase
 
 set scrolloff=7
 set noswapfile
 set nobackup
+set undodir=~/.vim/undodir
+set undofile
 
 set hlsearch
 set incsearch
 
+set termguicolors
+set bg=dark
 colorscheme gruvbox
 
 " enable backspace in insert mode of vim
@@ -71,16 +79,6 @@ set noshowmode
 let g:NERDTreeGitStatusWithFlags = 1
 "let g:WebDevIconsUnicodeDecorateFolderNodes = 1
 "let g:NERDTreeGitStatusNodeColorization = 1
-"let g:NERDTreeColorMapCustom = {
-    "\ "Staged"    : "#0ee375",
-    "\ "Modified"  : "#d9bf91",
-    "\ "Renamed"   : "#51C9FC",
-    "\ "Untracked" : "#FCE77C",
-    "\ "Unmerged"  : "#FC51E6",
-    "\ "Dirty"     : "#FFBD61",
-    "\ "Clean"     : "#87939A",
-    "\ "Ignored"   : "#808080"
-    "\ }
 let g:NERDTreeIndicatorMapCustom = {
   \ 'Modified'  : '*',
   \ 'Staged'    : '✚',
