@@ -5,7 +5,7 @@
 ```sh
 # clone this repository to ~/.vim
 
-# install vim-plug for vim and nvim here: https://github.com/junegunn/vim-plug
+# install vim-plug for vim or nvim here: https://github.com/junegunn/vim-plug
 
 # installation for vim
 ln -s .vim/vimrc .vimrc
