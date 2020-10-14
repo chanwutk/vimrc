@@ -13,7 +13,7 @@ Plug 'scrooloose/nerdcommenter'
 
 Plug 'christoomey/vim-tmux-navigator'
 
-Plug 'morhetz/gruvbox'
+Plug 'lifepillar/vim-gruvbox8'
 
 Plug 'HerringtonDarkholme/yats.vim' " TS Syntax
 
@@ -63,9 +63,11 @@ set incsearch
 set number
 set relativenumber
 
-"set termguicolors
-set bg=dark
-colorscheme gruvbox
+set termguicolors
+set background=dark
+colorscheme gruvbox8
+set cursorline
+
 
 " enable backspace in insert mode of vim
 set nocompatible
