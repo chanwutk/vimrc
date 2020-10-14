@@ -70,7 +70,7 @@ set backspace=indent,eol,start
 
 
 
-""""""""""""""""""" Airlien """""""""""""""""""
+""""""""""""""""""" Airline """""""""""""""""""
 set noshowmode
 
 
