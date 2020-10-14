@@ -60,6 +60,9 @@ set undofile
 set hlsearch
 set incsearch
 
+set number
+set relativenumber
+
 "set termguicolors
 set bg=dark
 colorscheme gruvbox
