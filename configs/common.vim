@@ -60,7 +60,7 @@ set undofile
 set hlsearch
 set incsearch
 
-set termguicolors
+"set termguicolors
 set bg=dark
 colorscheme gruvbox
 
@@ -79,7 +79,7 @@ set noshowmode
 let g:NERDTreeGitStatusWithFlags = 1
 "let g:WebDevIconsUnicodeDecorateFolderNodes = 1
 "let g:NERDTreeGitStatusNodeColorization = 1
-let g:NERDTreeIndicatorMapCustom = {
+let g:NERDTreeGitStatusIndicatorMapCustom = {
   \ 'Modified'  : '*',
   \ 'Staged'    : '✚',
   \ 'Untracked' : '✭',
