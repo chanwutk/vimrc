@@ -14,10 +14,12 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'christoomey/vim-tmux-navigator'
 
 Plug 'lifepillar/vim-gruvbox8'
+Plug 'ap/vim-css-color'
 
-Plug 'HerringtonDarkholme/yats.vim' " TS Syntax
+"Plug 'HerringtonDarkholme/yats.vim' " TS Syntax
+"Plug 'sheerun/vim-polyglot'
 
-Plug 'vim-airline/vim-airline'
+Plug 'itchyny/lightline.vim'
 
 " Initialize plugin system
 call plug#end()
@@ -61,7 +63,6 @@ set hlsearch
 set incsearch
 
 set number
-set relativenumber
 
 set termguicolors
 set background=dark
@@ -75,8 +76,12 @@ set backspace=indent,eol,start
 
 
 
-""""""""""""""""""" Airline """""""""""""""""""
+""""""""""""""""""" Lightline """""""""""""""""""
 set noshowmode
+let g:lightline = {
+  \ 'colorscheme': 'wombat',
+  \ }
+set laststatus=2
 
 
 
