@@ -1,25 +1,26 @@
 " Specify a directory for plugins
 call plug#begin('~/.vim/plugged')
 
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'scrooloose/nerdtree', { 'on': ['NERDTreeToggle', 'NERDTreeTabsToggle'] }
-Plug 'jistr/vim-nerdtree-tabs', { 'on': 'NERDTreeTabsToggle' }
-Plug 'Xuyuanp/nerdtree-git-plugin'
-Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
-Plug 'ryanoasis/vim-devicons'
+" Misc.
 Plug 'airblade/vim-gitgutter'
 Plug 'ctrlpvim/ctrlp.vim' " fuzzy find files
 Plug 'scrooloose/nerdcommenter'
-
 Plug 'christoomey/vim-tmux-navigator'
 
-Plug 'lifepillar/vim-gruvbox8'
-Plug 'ap/vim-css-color'
+" NERDTree
+Plug 'scrooloose/nerdtree', { 'on': ['NERDTreeToggle', 'NERDTreeTabsToggle'] }
+Plug 'jistr/vim-nerdtree-tabs', { 'on': 'NERDTreeTabsToggle' }
+Plug 'Xuyuanp/nerdtree-git-plugin'
 
+" Theme
+Plug 'lifepillar/vim-gruvbox8'
+"Plug 'ap/vim-css-color'
+Plug 'itchyny/lightline.vim'
+
+" Language
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 "Plug 'HerringtonDarkholme/yats.vim' " TS Syntax
 "Plug 'sheerun/vim-polyglot'
-
-Plug 'itchyny/lightline.vim'
 
 " Initialize plugin system
 call plug#end()
